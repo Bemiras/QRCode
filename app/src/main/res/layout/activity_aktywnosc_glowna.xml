@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_glowna"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.example.sklep.AktywnoscOpis">
+
+    <TextView
+        android:id="@+id/nazwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artykuły na magazynie"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="199dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/goList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClickFunction"
+            android:text="Przejdz do asortymentu"
+            android:textColor="?attr/actionMenuTextColor"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Scan_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyszukaj produkt  [Code QR]"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_qr_readTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

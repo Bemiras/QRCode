@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="money">
+        <item>100</item>
+    </string-array>
+
+    <array name="pictures">
+        <item> @drawable/chwyty</item>
+        <item> @drawable/detka</item>
+        <item> @drawable/dzwignia_hamulca</item>
+        <item> @drawable/hamulec</item>
+        <item> @drawable/klocki</item>
+        <item> @drawable/kolo</item>
+        <item> @drawable/lancuch</item>
+        <item> @drawable/linka_przerzutki</item>
+        <item> @drawable/manetka</item>
+        <item> @drawable/opona</item>
+        <item> @drawable/pedaly</item>
+        <item> @drawable/przerzutka</item>
+        <item> @drawable/siodelko</item>
+        <item> @drawable/tarcza_hamulcowa</item>
+        <item> @drawable/wolnobieg</item>
+    </array>
+
+    <string-array name="names">
+        <item>  Chwyty</item>
+        <item>  Detka</item>
+        <item>  Dzwignia hamulca</item>
+        <item>  Hamulec</item>
+        <item>  Klocki</item>
+        <item>  Kolo</item>
+        <item>  Łancuch</item>
+        <item>  Linka przerzutki</item>
+        <item>  Manetka</item>
+        <item>  Opona</item>
+        <item>  Pedaly</item>
+        <item>  Przerzutka</item>
+        <item>  Siodelko</item>
+        <item>  Tarcza hamulcowa</item>
+        <item>  Wolnobieg</item>
+    </string-array>
+
+    <string-array name="descriptions">
+ <item>
+    "Nowe chwyty wykonane z wysokiej jakosci gumy firmy SHIMANO."
+ </item>
+        <item>
+    "Nowe dętki wykonane z wysokiej jakosci gumy firmy DUNLOP."
+ </item>
+        <item>
+    "Nowa dzwignia hamulca wynonana z wysokiej jakosci aluminium."
+ </item>
+        <item>
+    "Nowy hamulec przedni wynonany ze stali nierdzewnej firmy SHIMANO."
+ </item>
+        <item>
+     "Nowe karbonowe klocki hamulcowe fimry BREMBO."
+ </item>
+        <item>
+     "Nowe obręcz koła wraz z szprychami z piasta firmy SHIMANO."
+ </item>
+        <item>
+    "Nowy łancuch o długości 85 ogniw firmy DID."
+ </item>
+        <item>
+    "Nowe przerzutki firmy SHIMANO"
+ </item>
+        <item>
+    "Nowe manetki firmy SHIMANO"
+ </item>
+        <item>
+    "Nowe opony 26 cali firmy DUNLOP."
+ </item>
+        <item>
+     "Nowe pedały antypoślizgowe firmy SHIMANO."
+ </item>
+        <item>
+    "Nowa przerzutka tylnia z regulacją 8 stopniową firmy SHIMANO."
+ </item>
+        <item>
+    "Nowe siodełko żelowe firmy SHIMANO"
+ </item>
+        <item>
+    "Nowa tarcza hamulcowa o średnicy 280mm firmy BREMBO"
+ </item>
+        <item>
+    "Nowy wolnobieg 8 stopniowy firmy SHIMANO."
+ </item>
+    </string-array>
+
+    <string-array name="sell">
+        <item>  12</item>
+        <item>  14</item>
+        <item>  24</item>
+        <item>  35</item>
+        <item>  15</item>
+        <item>  45</item>
+        <item>  20</item>
+        <item>  8</item>
+        <item>  35</item>
+        <item>  50</item>
+        <item>  10</item>
+        <item>  30</item>
+        <item>  40</item>
+        <item>  35</item>
+        <item>  50</item>
+    </string-array>
+
+
+    <string-array name="buy">
+        <item>  10</item>
+        <item>  11</item>
+        <item>  20</item>
+        <item>  30</item>
+        <item>  12</item>
+        <item>  35</item>
+        <item>  15</item>
+        <item>  5</item>
+        <item>  30</item>
+        <item>  40</item>
+        <item>  8</item>
+        <item>  25</item>
+        <item>  35</item>
+        <item>  30</item>
+        <item>  40</item>
+    </string-array>
+</resources>
